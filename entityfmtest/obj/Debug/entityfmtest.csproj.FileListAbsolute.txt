@@ -1,0 +1,16 @@
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\bin\Debug\entityfmtest.exe.config
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\bin\Debug\entityfmtest.exe
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\bin\Debug\entityfmtest.pdb
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\bin\Debug\EntityFramework.dll
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\bin\Debug\EntityFramework.xml
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\obj\Debug\entityfmtest.csprojAssemblyReference.cache
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\obj\Debug\entityfmtest.Form1.resources
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\obj\Debug\entityfmtest.Properties.Resources.resources
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\obj\Debug\entityfmtest.csproj.GenerateResource.cache
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\obj\Debug\entityfmtest.csproj.CoreCompileInputs.cache
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\obj\Debug\entityfmtest.csproj.CopyComplete
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\obj\Debug\entityfmtest.exe
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\obj\Debug\entityfmtest.pdb
+C:\Users\alp_g\OneDrive\Desktop\C\entityfmtest\entityfmtest\obj\Debug\entityfmtest.Form2.resources

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HospitalProjectModelStoreContainer" CdmEntityContainer="HospitalProjectEntities">
+    <EntitySetMapping Name="Tbl_Announcements">
+      <EntityTypeMapping TypeName="HospitalProjectModel.Tbl_Announcements">
+        <MappingFragment StoreEntitySet="Tbl_Announcements">
+          <ScalarProperty Name="announcementid" ColumnName="announcementid" />
+          <ScalarProperty Name="announcement" ColumnName="announcement" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Doctors">
+      <EntityTypeMapping TypeName="HospitalProjectModel.Tbl_Doctors">
+        <MappingFragment StoreEntitySet="Tbl_Doctors">
+          <ScalarProperty Name="docid" ColumnName="docid" />
+          <ScalarProperty Name="docname" ColumnName="docname" />
+          <ScalarProperty Name="docsurname" ColumnName="docsurname" />
+          <ScalarProperty Name="docbranch" ColumnName="docbranch" />
+          <ScalarProperty Name="doctc" ColumnName="doctc" />
+          <ScalarProperty Name="docpassword" ColumnName="docpassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Patients">
+      <EntityTypeMapping TypeName="HospitalProjectModel.Tbl_Patients">
+        <MappingFragment StoreEntitySet="Tbl_Patients">
+          <ScalarProperty Name="patientid" ColumnName="patientid" />
+          <ScalarProperty Name="patientname" ColumnName="patientname" />
+          <ScalarProperty Name="patientsurname" ColumnName="patientsurname" />
+          <ScalarProperty Name="patienttc" ColumnName="patienttc" />
+          <ScalarProperty Name="patienttel" ColumnName="patienttel" />
+          <ScalarProperty Name="patientpassword" ColumnName="patientpassword" />
+          <ScalarProperty Name="patientgender" ColumnName="patientgender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Secretary">
+      <EntityTypeMapping TypeName="HospitalProjectModel.Tbl_Secretary">
+        <MappingFragment StoreEntitySet="Tbl_Secretary">
+          <ScalarProperty Name="secid" ColumnName="secid" />
+          <ScalarProperty Name="secnamesurname" ColumnName="secnamesurname" />
+          <ScalarProperty Name="sectc" ColumnName="sectc" />
+          <ScalarProperty Name="secpassword" ColumnName="secpassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_branch">
+      <EntityTypeMapping TypeName="HospitalProjectModel.Tbl_branch">
+        <MappingFragment StoreEntitySet="Tbl_branch">
+          <ScalarProperty Name="branchid" ColumnName="branchid" />
+          <ScalarProperty Name="branchname" ColumnName="branchname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table1">
+      <EntityTypeMapping TypeName="HospitalProjectModel.Table1">
+        <MappingFragment StoreEntitySet="Table1">
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="SNo" ColumnName="SNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Appointments">
+      <EntityTypeMapping TypeName="HospitalProjectModel.Tbl_Appointments">
+        <MappingFragment StoreEntitySet="Tbl_Appointments">
+          <ScalarProperty Name="patientcomplaint" ColumnName="patientcomplaint" />
+          <ScalarProperty Name="patienttc" ColumnName="patienttc" />
+          <ScalarProperty Name="appointmentstate" ColumnName="appointmentstate" />
+          <ScalarProperty Name="appointmentdoctor" ColumnName="appointmentdoctor" />
+          <ScalarProperty Name="appointmentbranch" ColumnName="appointmentbranch" />
+          <ScalarProperty Name="appointmenttime" ColumnName="appointmenttime" />
+          <ScalarProperty Name="appointmentdate" ColumnName="appointmentdate" />
+          <ScalarProperty Name="appointmentid" ColumnName="appointmentid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
