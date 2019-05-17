@@ -116,6 +116,7 @@
             this.btndel.TabIndex = 8;
             this.btndel.Text = "Delete";
             this.btndel.UseVisualStyleBackColor = true;
+            this.btndel.Click += new System.EventHandler(this.btndel_Click);
             // 
             // btnupdate
             // 

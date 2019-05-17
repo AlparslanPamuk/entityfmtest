@@ -53,5 +53,14 @@ namespace WindowsFormsApp1
             db.SaveChanges();
             fill();
         }
+
+        private void btndel_Click(object sender, EventArgs e)
+        {
+            int deleted = Convert.ToInt32(txtno.Text);
+            var deletedstudent = db.Students.Where(w => w.No == deleted).FirstOrDefault();
+            db.Students.Remove(deletedstudent);
+            db.SaveChanges();
+            fill();
+        }
     }
 }
