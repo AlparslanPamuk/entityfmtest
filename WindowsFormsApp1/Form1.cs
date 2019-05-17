@@ -30,5 +30,28 @@ namespace WindowsFormsApp1
             fill();
             this.Text = "Mustafa Alparslan Pamuk Program";
         }
+
+        private void btnsave_Click(object sender, EventArgs e)
+        {
+            Student newstudent = new Student();
+            newstudent.No = Convert.ToInt32(txtno.Text);
+            newstudent.Name = txtname.Text;
+            newstudent.Surname = txtsurname.Text;
+            db.Students.Add(newstudent);
+            db.SaveChanges();
+            fill();
+
+
+        }
+
+        private void btnupdate_Click(object sender, EventArgs e)
+        {
+            int update = Convert.ToInt32(txtno.Text);
+            var updatedstudent = db.Students.Where(w => w.No == update).FirstOrDefault();
+            updatedstudent.Name = txtname.Text;
+            updatedstudent.Surname = txtsurname.Text;
+            db.SaveChanges();
+            fill();
+        }
     }
 }

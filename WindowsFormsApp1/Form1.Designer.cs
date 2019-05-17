@@ -106,6 +106,7 @@
             this.btnsave.TabIndex = 7;
             this.btnsave.Text = "Save";
             this.btnsave.UseVisualStyleBackColor = true;
+            this.btnsave.Click += new System.EventHandler(this.btnsave_Click);
             // 
             // btndel
             // 
@@ -124,6 +125,7 @@
             this.btnupdate.TabIndex = 9;
             this.btnupdate.Text = "Update";
             this.btnupdate.UseVisualStyleBackColor = true;
+            this.btnupdate.Click += new System.EventHandler(this.btnupdate_Click);
             // 
             // Form1
             // 
